@@ -1,0 +1,13 @@
+{
+  "version": "2.1",
+  "cloud_provider": "aws",
+  "credentials": {
+    "encoded_access_key": "QUtJQUpHSFhSMUI1MTZPWk9OMVNQ",
+    "region": "eu-west-1",
+    "output_format": "json"
+  },
+  "deployment": {
+    "cluster": "prod-eks-01",
+    "namespace": "autosecops"
+  }
+}

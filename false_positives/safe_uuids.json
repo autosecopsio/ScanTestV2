@@ -1,0 +1,21 @@
+{
+  "description": "Standard UUIDv4 identifiers \u2014 NOT secrets",
+  "session_ids": [
+    "19fd02c9-7d07-431b-b86a-3232499ec70f",
+    "a2c07564-304b-495f-bef5-4574eaf0a41f",
+    "6c91c5d5-1ada-4411-ad33-fe318577485f",
+    "916fe1ca-7221-4d3e-bc88-1f62c303ec8b",
+    "d4e54670-e02d-402b-91b6-64a8e63dc909",
+    "69ba0372-79eb-45f8-ad3e-a2480c625e0e",
+    "451b776d-71e0-4e97-9594-b1e251fa4567",
+    "561f50e2-d3a8-41a1-bf9f-ae2e0ebdd35b"
+  ],
+  "trace_ids": [
+    "efbea9e2-5503-4b6b-82dd-6aec1e737a68",
+    "ebe282e5-064e-4e07-8774-12eaa0b3aef9",
+    "08d5667f-feac-4648-87fe-62b19d2da895",
+    "def4808b-34dd-4b69-ab52-364dfb6a4235",
+    "825837ff-442e-4e46-a1f4-057fb7043d86"
+  ],
+  "correlation_id": "2219a369-2fc3-42c4-9536-e448dba21c65"
+}

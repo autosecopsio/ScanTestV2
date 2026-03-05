@@ -1,0 +1,20 @@
+# Test Vectors — Low Entropy Strings
+# These should NOT trigger secret detection.
+
+aaaaaaaaaaaaaaaaaaaa
+bbbbbbbbbbbbbbbbbbbb
+abababababababababab
+12121212121212121212
+0000000000000000000000000000000000000000
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+# Repeated patterns
+abcabcabcabcabcabcabcabc
+123123123123123123123123
+
+# Common words that look like tokens
+development
+staging
+production
+localhost

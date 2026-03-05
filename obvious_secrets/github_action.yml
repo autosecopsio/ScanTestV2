@@ -1,0 +1,21 @@
+name: Deploy to Production
+on:
+  push:
+    branches: [main]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Authenticate with GitHub API
+        run: |
+          # TODO: Move this to repository secrets
+          echo "Deploying with hardcoded token..."
+          curl -H "Authorization: token ghp_Efrj1aQHHC7kOQwQqKY2N5t6UiISBp3JuQBN" \
+            https://api.github.com/repos/autosecopsio/infra/deployments \
+            -d '{"ref": "main", "environment": "production"}'
+
+      - name: Notify Slack
+        run: echo "Deployment triggered"
